@@ -1,0 +1,47 @@
+<script>
+    // conversor de dias em horas //
+    const dias = Number(prompt("Nº dias: "));
+    const horas = Number(prompt("Nº horas: "));
+    const total = (dias * 24) + horas;
+    alert(`Total de horas: ${total}`);
+    
+</script>
+
+<script>
+    // ao escolher um número o programa devolve o anterior e o posterior do númrero escolhido//
+    const num = Number(prompt("Escolha um número: "));    
+    const anterior = num - 1;
+    const posterior = num + 1;
+    alert(`Numero digitado: ${num}\nNúmero anterior: ${anterior}\nNúmero Posterior: ${posterior}`);
+
+    </script>
+
+<script>
+    //esse programa calcula a conta pelo númeroo de pessoas qque comeu em um rodizio de pizza//
+const cliente = Number(prompt("Número de clientes? "));
+const conta =  30;
+const resultado = cliente * 30;
+
+alert(`O preço é: ${resultado}\nO numero de clientes: ${cliente}\nO valor por pessoa é: ${conta}`);
+
+</script>
+
+<script>
+// esse programa calcula o valor do comprar e dar um desconto de 10% e ainda divide em 3x //
+ const compra = Number(prompt("informe o valor do produto: "));
+ const forma =  prompt("Infoeme as formas de pagamento: ");
+ const resul = compra / 3 * 0.9;
+ 
+ alert(`O valor da compra foi de: ${compra}\n Com a forma de pagamento: ${forma}\n O  valor totaal com um desconto parcelado em 3x fica: ${resul}`);
+
+</script>
+
+<script>
+    // esse calcula a média de um aluno //
+    const nota1 = Number(prompt("Digite a sua nota do 1º bimmestre: "));
+    const nota2 = Number(prompt("Digite a sua nota do 2º bimmestre: "));
+    const nota3 = Number(prompt("Digite a sua nota do 3º bimmestre: "));
+    const media = (nota1 + nota2 + nota3) / 3
+
+    alert(`A sua média é: ${media}`);
+</script>
